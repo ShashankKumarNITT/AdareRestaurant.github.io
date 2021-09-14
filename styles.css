@@ -1,0 +1,98 @@
+html{
+    height: 100%;
+}
+body {
+    background-color: rgb(75, 77, 75);
+    background-image: url(images/background-adare-restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    /* width: auto; */
+    width: 1024px;
+}
+
+header {
+    /* background-color: blue; */
+    height: 118px;
+    /* width:auto; */
+    /* width: 1024px; */ 
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.356);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    /* width: auto;  */
+    text-align: center;
+
+}
+
+main {
+    height: 400px;
+    /* width: auto;  */
+    text-align: center;
+    margin-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+section {
+    background-image: url(images/samosa.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.39);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* width: auto;  */
+}
+
+h1 {
+    font-size: 200%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*we are writing three for the compatibility of the font, if any such case occured*/
+}
+
+main p {
+    font-size: 18px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*we are writing three for the compatibility of the font, if any such case occured*/
+}
+
+a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    /* text-decoration: none; */
+}
+
+nav a {
+    text-decoration: overline;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* .no-underline {
+    text-decoration: none;
+} */
+
+footer p {
+    text-align: center;
+    font-size: xx-small;
+}
+
+.map {
+    text-align: center;
+}
